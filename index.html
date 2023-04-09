@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cosin-Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a class="en-haut" href="#"
+      ><i class="fa-sharp fa-solid fa-arrow-up"></i
+    ></a>
+    <section id="acceuil">
+      <h1 class="titre">Bienvenue sur Cosin-Game</h1>
+      <div class="Niveau">
+        <h2>Niveau :</h2>
+        <a class="bouton" href="#niv-1">
+          <h1>1</h1>
+        </a>
+        <a class="bouton" href="#niv-2">
+          <h1>2</h1>
+        </a>
+        <a class="bouton" href="#niv-3">
+          <h1>3</h1>
+        </a>
+        <a class="bouton" href="#fin">
+          <h1>Fin</h1>
+        </a>
+      </div>
+      <div class="info">
+        <h2>Regle:</h2>
+        <p>
+          Le but de ce jeu est de deviner l'expression de la fonction à l'aide
+          d'un graphique. Bon courage.
+          <br />
+          Veuiller utiliser la syntaxe suivante : cos(x) sin(x) tan(x) ln(x)
+          exp(x) ^ * + - sqrt(x) pi e va()
+        </p>
+        <br />
+        <p>
+          Tu peux t'entrainner à tracer des courbes à droite grace à cette
+          fenetre geogebra
+        </p>
+      </div>
+
+      <div id="tuto"></div>
+    </section>
+    <section id="niv-1" class="niv 1">
+      <h1>Niveau 1</h1>
+      <h2>1.</h2>
+      <div id="couleur1" class="exo-1">
+        <div class="graphique 1" id="graphique-1"></div>
+        <div id="couleur1bis" class="reponse 1">
+          <input
+            id="fonction-entree 1"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 1"
+          />
+          <button class="Validation 1" id="BoutonValider1">Valider</button>
+          <h3 id="reponse1">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=cos(x)
+          </h3>
+        </div>
+      </div>
+      <h2>2.</h2>
+      <div id="couleur2" class="exo-2">
+        <div class="graphique 2" id="graphique-2"></div>
+        <div id="couleur2bis" class="reponse 2">
+          <input
+            id="fonction-entree 2"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 2"
+          />
+          <button class="Validation 2" id="BoutonValider2">Valider</button>
+          <h3 id="reponse2">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=x^x
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="niv-2" class="niv 2">
+      <h1>Niveau 2</h1>
+      <h2>1.</h2>
+      <div id="couleur3" class="exo-3">
+        <div class="graphique 3" id="graphique-3"></div>
+        <div id="couleur3bis" class="reponse 3">
+          <input
+            id="fonction-entree 3"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 3"
+          />
+          <button class="Validation 3" id="BoutonValider3">Valider</button>
+          <h3 id="reponse3">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=cos(ln(x))
+          </h3>
+        </div>
+      </div>
+      <h2>2.</h2>
+      <div id="couleur4" class="exo-4">
+        <div class="graphique 4" id="graphique-4"></div>
+        <div id="couleur4bis" class="reponse 4">
+          <input
+            id="fonction-entree 4"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 4"
+          />
+          <button class="Validation 4" id="BoutonValider4">Valider</button>
+          <h3 id="reponse4">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=x^(-x)
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="niv-3" class="niv 3">
+      <h1>Niveau 3</h1>
+      <h2>1.</h2>
+      <div id="couleur5" class="exo-5">
+        <div class="graphique 5" id="graphique-5"></div>
+        <div id="couleur5bis" class="reponse 5">
+          <input
+            id="fonction-entree 5"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 5"
+          />
+          <button class="Validation 5" id="BoutonValider5">Valider</button>
+          <h3 id="reponse5">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=cos(pi*sin(x))
+          </h3>
+        </div>
+      </div>
+      <h2>2.</h2>
+      <div id="couleur6" class="exo-6">
+        <div class="graphique 6" id="graphique-6"></div>
+        <div id="couleur6bis" class="reponse 6">
+          <input
+            id="fonction-entree 6"
+            type="text"
+            alt="f(x) = "
+            class="fonction-entree 6"
+          />
+          <button class="Validation 6" id="BoutonValider6">Valider</button>
+          <h3 id="reponse6">
+            Bien joué ! <br />
+            La réponse était bien : f(x)=tan(ln(x))
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="fin" class="fin">
+      <h1>Bonus</h1>
+    </section>
+  </body>
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+  <script src="index.js"></script>
+</html>
