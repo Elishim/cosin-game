@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+* {
+  background-color: #172d13;
+  font-family: "Paytone One", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: white;
+}
+
+#acceuil {
+  margin-bottom: 200px;
+  display: flex;
+}
+
+.bouton {
+  align-self: center;
+  margin: 10px;
+  border-color: whitesmoke;
+}
+
+.Niveau {
+  display: flex;
+  position: absolute;
+  top: 30%;
+}
+
+.info {
+  margin: 30px;
+  width: 500px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+}
+
+.graphique {
+  margin: 30px;
+}
+
+#tuto {
+  margin: 30px;
+}
+
+h2 {
+  margin: 30px;
+  color: darkcyan;
+}
+
+h1 {
+  margin: 30px;
+  color: blueviolet;
+}
+
+.titre {
+  margin: 30px;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+input {
+  margin: 30px;
+  height: 60px;
+  width: 300px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 5px;
+  border: 4px solid;
+  color: #e66714;
+}
+
+button:hover {
+  color: #e66714;
+  border: 4px solid #e66714;
+}
+
+button {
+  margin: 30px;
+  color: white;
+  height: 60px;
+  border: 4px solid white;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.reponse {
+  display: flex;
+  position: relative;
+}
+
+.exo-1 {
+  display: flex;
+}
+
+.exo-2 {
+  display: flex;
+}
+
+.exo-3 {
+  display: flex;
+}
+
+.exo-4 {
+  display: flex;
+}
+
+.exo-5 {
+  display: flex;
+}
+
+.exo-6 {
+  display: flex;
+}
+
+h3 {
+  background-color: green;
+  visibility: hidden;
+  margin: 20px;
+  position: absolute;
+  top: 30%;
+  color: #f3c22e;
+}
+
+.en-haut {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #f3c22e;
+  display: block;
+}
